@@ -1,32 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('https://i.ytimg.com/vi/9EnzfQUOQCM/maxresdefault.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(77, 77, 77, 0.5), rgba(77, 77, 77, 0.5)) ,url('https://i.ytimg.com/vi/9EnzfQUOQCM/maxresdefault.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #fff;
+    color: white;
     margin: auto;
-    /* box-shadow: inset 0 0 0 400px rgba(0, 0, 0, 0.5) */
 }
 
 h1 {
     text-align: center;
     margin-top: 20px;
     color: white;
-    text-shadow: 1px 0px 4px #000;
+    text-shadow: 1px 0px 4px black;
 }
 
 input[type="text"], select{
-    border-radius: 5%;
     padding: 5px;
-    background-color: rgb(25, 25, 25);
+    background-color: rgba(25, 25, 25, 0.5);
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 90%;
-    color: #fff;
+    width: 93%;
+    color: white;
 }
 
 input[type="text"]:focus {
     border-color: yellow;
-    box-shadow: 0 0 8px yellow;
+    box-shadow: 0 0 7px yellow;
 }
 
 #rname, #date{
@@ -57,7 +55,7 @@ input[type="radio"]:checked {
 }
 
 fieldset{
-    width: 300px;
+    width: 560px;
     border: 1px solid goldenrod;
     border-radius: 5%;
     text-align: left;
@@ -65,11 +63,11 @@ fieldset{
 }
 
 .card {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
     padding: 24px;
-    max-width: 400px;
+    max-width: 600px;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
@@ -97,7 +95,7 @@ li{
 
 input[type="submit"] {
     background: grey;
-    color: #222;
+    color: black;
     font-weight: bold;
     border: none;
     border-radius: 8px;
